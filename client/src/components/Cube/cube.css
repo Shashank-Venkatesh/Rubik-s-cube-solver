@@ -1,0 +1,12 @@
+/*
+  cube.css
+  ========
+  Most cube styling is done with Tailwind utility classes directly in
+  Cube.jsx / Face.jsx / Sticker.jsx, which keeps each component's markup
+  and styling in one place. This file exists for the rare bespoke rule
+  that doesn't fit cleanly as a utility class combination.
+*/
+
+.cube-net {
+  perspective: 900px;
+}
